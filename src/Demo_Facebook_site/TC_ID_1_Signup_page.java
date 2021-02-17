@@ -19,7 +19,7 @@ public class TC_ID_1_Signup_page {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
-		System.out.println("Clicking Signup button------");
+		System.out.println("--------Clicking Signup button----------");
 		Facebook_login_or_Signup_page np=new Facebook_login_or_Signup_page(driver);
 		np.Navigate_Signup_page();
 		Thread.sleep(2000);
