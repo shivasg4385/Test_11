@@ -23,7 +23,7 @@ public class TC_ID_1_Signup_page {
 		Facebook_login_or_Signup_page np=new Facebook_login_or_Signup_page(driver);
 		np.Navigate_Signup_page();
 		Thread.sleep(2000);
-		System.out.println("Signup window opened!!!");
+		System.out.println("Signup window opened!!!!!");
 //		driver.findElement(By.name("firstname")).sendKeys("Test");
 		Signup_page sup=new Signup_page(driver);
 		sup.enterFirstname();
